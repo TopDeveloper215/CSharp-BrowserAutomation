@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "2captcha-csharp/1.1.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/TwoCaptcha.dll": {
+            "assemblyVersion": "1.1.3.0",
+            "fileVersion": "1.1.3.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Selenium.UndetectedChromeDriver/1.0.7": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Selenium.WebDriver": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/UndetectedChromeDriver.dll": {
+            "assemblyVersion": "1.0.7.0",
+            "fileVersion": "1.0.7.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.6.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "2captcha-csharp/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+/PFtyDqNqyMhADAiKR/5LCsLcZsd/CuBDsNagBal8dl+tRlQ3aV435mtv6ENQM0oT4CjNV3Mn46+0KsvERcTw==",
+      "path": "2captcha-csharp/1.1.3",
+      "hashPath": "2captcha-csharp.1.1.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Selenium.UndetectedChromeDriver/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/kfbXcZxWU1HtbNKL2DGtAecHdr+2rIyaFPW4BfoO1pOGY1GOLGQXEQPJPPkq7Zy33a0rS7zRK1gri6mEd8tVw==",
+      "path": "selenium.undetectedchromedriver/1.0.7",
+      "hashPath": "selenium.undetectedchromedriver.1.0.7.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wdkzNyVYvdI0YOeScP42ubshPOjY7dj8aXHyetlhVTqKo5gAbYnOJU//W5q0hVSVw4hsisNvgR/UQqPvgM8rew==",
+      "path": "selenium.webdriver/4.6.0",
+      "hashPath": "selenium.webdriver.4.6.0.nupkg.sha512"
+    }
+  }
+}
